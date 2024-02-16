@@ -1,0 +1,194 @@
+/*EL SELECTOR ME SIRVE EN CASOS PARTICULARES*/
+/*LA CLASS ME PERMITE APLICARLE UN NOMBRE AL PADRE Y AUMENTAR ESPECIFICIDAD O AGRUPAR PROPIEDADES QUE QUIERO REUTILIZAR*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+}
+
+/*HEADER*/
+header img {
+    height: 59px;
+    width: 250px;
+    margin: 15px;
+}
+
+header {
+    background-color: #FEFEFE;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    
+
+header nav ul {
+    list-style:none;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li {
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+
+/*MAIN*/
+
+div p {
+    font-family: 'Poppins', sans-serif;
+    margin: 15px
+}
+
+.hero h1 {
+    color:#ffffff;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero p{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 89vh;
+    background-image: url(../img/citronela_2.JPG);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.diferenciadores {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+.comerciojusto img {
+    width: 18%;
+    height: 40%;
+    margin: 15px;
+}
+.comerciojusto h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 15px
+}
+
+.productoslocales img {
+    width: 18%;
+    height: 40%;
+    margin: 15px;
+}
+
+.productoslocales h2 { 
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
+}
+
+.basicos-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.basicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.basicos img {
+    height: 350px;
+    width: 300px;
+}
+
+.basicos h2 {
+    margin: 15px;
+}
+
+.basicos div {
+    border: 3px solid #FFE4C5;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    background-color: #FFE4C5;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.75);
+
+}
+
+.basicos p {
+    color: black;
+}
+
+/*FOOTER*/
+
+.RedesYHorario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.RedesYHorario section {
+    flex: 1; /* Distribuye el espacio disponible de manera equitativa */
+    text-align: center; /* Centra el contenido dentro de cada sección */
+    margin: 10px;
+}
+
+footer div h3{
+    background-color: antiquewhite;
+    border-radius: 8px;
+
+}
+footer div a img {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+}
+
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+iframe {
+    margin: 15px;
+}
